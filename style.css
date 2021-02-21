@@ -85,17 +85,15 @@ nav ul li a:hover {
 .content-box1 {
   width: 22%;
   margin: 60px 20px;
-  height: 80%;
+  height: 300px;
   padding: 5px 35px;
-  padding-right: 10px;
-  border: 1px solid wheat;
-  background-color: #c5866f;
+  padding-bottom: 20px;
   border-radius: 8px;
-  box-shadow: 0 1px 5px rgb(97, 97, 97);
+  box-shadow: 0 1px 5px rgb(128, 18, 18);
   display: flex;
   justify-content: center;
   flex-direction: column;
-  align-items: left;
+  align-items: center;
 }
 
 .link {
@@ -109,8 +107,23 @@ nav ul li a:hover {
   text-decoration: underline;
 }
 
-li {
-  padding: 1px 0;
+.img-timer {
+  border-radius: 70%;
+  height: 230px;
+}
+
+.link1 {
+  text-decoration: none;
+  font-size: 20px;
+  border: 1px solid wheat;
+  background-color: #3b1c32;
+  box-shadow: 0 1px 5px rgb(97, 97, 97);
+  color: wheat;
+  padding: 5px 8px;
+}
+
+.link1:hover {
+  background-color: #c5866f;
 }
 
 .content-box2 {
@@ -156,7 +169,7 @@ li {
   font-size: 16px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1200px) {
   nav .logo {
     text-align: center;
     font-size: 25px;
@@ -164,13 +177,13 @@ li {
   }
 
   .content {
-    flex-direction: column;
+    flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
   }
 
   .content-box1 {
-    display: none;
+    width: 85%;
   }
 
   .content-box2 {
@@ -229,13 +242,13 @@ li {
 
 @media (max-width: 365px) {
   .logo {
-    font-size: 22px;
+    font-size: 26px;
   }
 
   .menu-toggle {
     height: 36px;
     width: 36px;
-    font-size: 22px;
+    font-size: 24px;
     text-align: center;
   }
 }
