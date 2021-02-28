@@ -276,3 +276,9 @@ nav ul li a:hover {
     text-align: center;
   }
 }
+
+@media (max-width: 320px) {
+  .media-width {
+    font-size: 14.6px;
+  }
+}
